@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-image:linear-gradient(rgba(219, 235, 176, 0.7),rgba(240, 240, 197, 0.7)),url(background.jfif);
+    background-size: cover;
+    height: 10%;
+    width: 100%;
+}
+
+.h1{
+    background-image: linear-gradient(rgba(155, 148, 148, 0.7),rgba(0,0,0,0.7)),url(h1.png);
+    background-size:contain;
+    background-position: center;
+    border: 1px solid black;
+    color: rgb(7, 7, 7);
+    height: 5rem;
+}
+
+.choise{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(247, 245, 245);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 180px;
+    width: 150px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.choise:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.score-board{
+    margin-top: 60px;
+}
